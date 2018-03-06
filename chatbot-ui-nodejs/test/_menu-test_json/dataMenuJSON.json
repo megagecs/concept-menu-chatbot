@@ -1,0 +1,70 @@
+{
+    "Menu_Opciones": [
+        {
+            "Texto": "Cobros locales y desgloses",
+            "Id": "1",
+            "Menu_Opciones": [
+                {
+                    "Texto": "Cobros locales",
+                    "Id": "10",
+                    "Menu_Opciones": [
+                        {
+                            "Texto": "Importacion",
+                            "Id": "20"
+                        },
+                        {
+                            "Texto": "Exportacion",
+                            "Id": "21"
+                        },
+                        {
+                            "Texto": "Tarifarios",
+                            "Id": "22"
+                        }
+                    ]
+                },
+                {
+                    "Texto": "Desgloses",
+                    "Id": "11",
+                    "Menu_Opciones": [
+                        {
+                            "Texto": "Importacion",
+                            "Id": "23"
+                        },
+                        {
+                            "Texto": "Exportacion",
+                            "Id": "24"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Texto": "Sobreestadia y daños",
+            "Id": "2",
+            "Menu_Opciones": [
+                {
+                    "Texto": "Consultas días libres",
+                    "Id": "12",
+                    "Menu_Opciones": [
+                        {
+                            "Texto": "Importacion",
+                            "Id": "25"
+                        },
+                        {
+                            "Texto": "Exportacion",
+                            "Id": "26"
+                        }
+                    ]
+                },
+                {
+                    "Texto": "Compras de  días",
+                    "Id": "13"
+                },
+                {
+                    "Texto": "Daños",
+                    "Id": "14"
+                }
+            ]
+        }
+    ]
+}

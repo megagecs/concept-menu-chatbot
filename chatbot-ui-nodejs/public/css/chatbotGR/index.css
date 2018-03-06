@@ -1,0 +1,245 @@
+.mytext-chatbot{
+    background: whitesmoke;
+    margin: 10px 20px 10px 10px;
+	border: 0;
+    border-radius: 3px;
+    padding: 10px;
+    outline: none;
+    width: 270px;
+	height: 50px;
+	resize: none;
+}
+
+fieldset.chatbot {
+	border: 0;
+	margin: 0;
+	padding: 0;
+	background: white;
+	width: 300px;
+	border-radius: 3px;
+}
+
+h4.chatbot {
+	line-height: 1.5em;
+	margin: 0;
+}
+
+input-chatbot {
+	border: 0;
+	color: inherit;
+    font-family: inherit;
+    font-size: 100%;
+    line-height: normal;
+    margin: 0;
+}
+
+.clearfix-chatbot { *zoom: 1; } /* For IE 6/7 */
+.clearfix-chatbot:before, .clearfix-chatbot:after {
+    content: "";
+    display: table;
+}
+.clearfix-chatbot:after { clear: both; }
+
+.chat-message-counter {
+	background: #e62727;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	display: none;
+	font-size: 12px;
+	font-weight: bold;
+	height: 28px;
+	left: 0;
+	line-height: 28px;
+	margin: -15px 0 0 -15px;
+	position: absolute;
+	text-align: center;
+	top: 0;
+	width: 28px;
+}
+
+.chat-message-userWatson {
+	background: #f7d7cf;
+	display:inline-block;
+	border:5px solid #f7d7cf;
+	border-radius:10px;
+	padding:5px;
+	text-align:justify;
+	max-width:230px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+}
+
+.chat-message-userBoot {
+	background: #da5b3e;
+	display:inline-block;
+	border:5px solid #da5b3e;
+	border-radius:10px;
+	padding:1px;
+	text-align:justify;
+	max-width:176px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color:#f9f9fc;
+}
+
+.chat-close {
+	background: #1b2126;
+	border-radius: 50%;
+	color: #fff;
+	display: block;
+	float: right;
+	font-size: 10px;
+	height: 16px;
+	line-height: 16px;
+	margin: 2px 0 0 0;
+	text-align: center;
+	width: 16px;
+}
+
+.chat {
+	background: #fafafa;
+}
+
+.chat-history {
+	height: 252px;
+	padding: 8px 24px;
+	overflow-y: scroll;
+}
+
+.chat-message {
+	margin: 16px 0;
+}
+
+.chat-message img {
+	border-radius: 50%;
+	float: left;
+}
+
+.chat-message-content {
+	margin-left: 40px;
+}
+
+.chat-message-user {
+	margin-left: 10px;
+	text-align: right;
+	padding-right:5px;
+	overflow: hidden;
+	resize: none;
+}
+
+.chat-time {
+	float: right;
+	font-size: 10px;
+}
+
+.chat-feedback {
+	font-style: italic;
+	margin: 0 0 0 80px;
+}
+
+.img_esquina-chatbot {
+	width: 100px;
+	height: 120px;
+	display:scroll;
+	position:fixed;
+	bottom:38px;
+	right:-22px;
+	z-index:99;
+}
+
+.content-popup-chatbot {
+	margin:20px auto 100px 50px;
+    bottom: 0;
+	font-size: 12px;
+    right: 0px;
+    margin-top:200px;
+    position:absolute;
+    padding:0px;
+    width:300px;
+    left:-300px;
+    min-height:250px;
+    background: #fafafa;
+    box-shadow: 10px 2px 10px #666666;
+	border-radius: 5px 5px 0 0;
+}
+
+.content-popup-chatbot h2 {
+    color:#48484B;
+    border-bottom: 1px solid #48484B;
+    margin-top: 0;
+    padding-bottom: 4px;
+}
+
+.popup-overlay-chatbot {
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    display:none;
+    background-color: #777777;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.close-chatbot {
+    position: absolute;
+    right: 15px;
+}
+
+#popup-chatbot header {
+	background: #da5b3e;
+	border-radius: 5px 5px 0 0;
+	color: #fff;
+	cursor: pointer;
+	padding: 16px 24px;
+}
+
+#popup-chatbot input[type="text"] {
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	padding: 8px;
+	outline: none;
+    width: 200px;
+    /*agregado 09-02-2018*/
+    border: 0;
+	color: inherit;
+    font-family: inherit;
+    font-size: 100%;
+    line-height: normal;
+    margin: 0;
+}
+
+.column {
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    display: table;
+    clear: both;
+}
+
+textarea#bot {
+	border: 2px solid whitesmoke;
+	border-radius: 5px;
+	padding: 5px;
+	background-position: bottom right;
+	resize: none;
+	background-color:whitesmoke;
+    overflow: auto;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+}
+
+textarea#user {
+	border: 2px solid #da5b3e;
+	border-radius: 5px;
+	padding: 5px;
+	background-position: bottom right;
+	resize: none;
+	background-color:#da5b3e;
+    overflow: auto;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+}

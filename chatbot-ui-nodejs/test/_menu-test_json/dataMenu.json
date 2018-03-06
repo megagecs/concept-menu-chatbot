@@ -1,0 +1,85 @@
+{
+    "Menu_Opciones" :
+    [
+        {
+            "Texto": "Cobros locales y desgloses",
+            "Id": "1",
+            "Nivel": "1",
+            "Menu_Opciones": [
+                {
+                    "Texto": "Cobros locales",
+                    "Id": "10",
+                    "Nivel": "2",
+                    "Menu_Opciones": [
+                        {
+                            "Texto": "Importacion",
+                            "Id": "20",
+                            "Nivel": "3"
+                        },
+                        {
+                            "Texto": "Exportacion",
+                            "Id": "21",
+                            "Nivel": "3"
+                        },
+                        {
+                            "Texto": "Tarifarios",
+                            "Id": "22",
+                            "Nivel": "3"
+                        }
+                    ]
+                },
+                {
+                    "Texto": "Desgloses",
+                    "Id": "11",
+                    "Nivel": "2",
+                    "Menu_Opciones": [
+                        {
+                            "Texto": "Importacion",
+                            "Id": "23",
+                            "Nivel": "3"
+                        },
+                        {
+                            "Texto": "Exportacion",
+                            "Id": "24",
+                            "Nivel": "3"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Texto": "Sobreestadia y daños",
+            "Id": "2",
+            "Nivel": "1",
+            "Menu_Opciones": [
+                {
+                    "Texto": "Consultas días libres",
+                    "Id": "12",
+                    "Nivel": "2",
+                    "Menu_Opciones": [
+                        {
+                            "Texto": "Importacion",
+                            "Id": "25",
+                            "Nivel": "3"
+                        },
+                        {
+                            "Texto": "Exportacion",
+                            "Id": "26",
+                            "Nivel": "3"
+                        }
+                    ]
+                },
+                {
+                    "Texto": "Compras de  días",
+                    "Id": "13",
+                    "Nivel": "2"
+                },
+                {
+                    "Texto": "Daños",
+                    "Id": "14",
+                    "Nivel": "2"
+                }
+            ]
+        }
+    ]
+}
