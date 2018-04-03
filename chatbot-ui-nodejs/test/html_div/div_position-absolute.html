@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        div.absolute1 {
+            position: absolute;
+            width: 300px;
+            height: 140px;
+            top: 100px;
+            left: 30px;
+            background-color: #ff8800;
+            color: #fff;
+            padding: 15px;
+            z-index: 2;
+        }
+
+        div.absolute2 {
+            position: absolute;
+            width: 820px;
+            height: 30px;
+            padding: 10px;
+            background-color: #ddf;
+            top: 150px;
+            left: 10px;
+            z-index: 1;
+        }
+
+        div.absolute3 {
+            position: absolute;
+            width: 100px;
+            height: 20px;
+            padding: 10px;
+            background-color: greenyellow;
+            bottom: 10px;
+            right: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="absolute1">
+        Esta capa tiene posicionamiento absoluto.
+        <br>
+        <br> Me permite especificar top y left para colocarla con respecto a la esquina superior izquierda.
+    </div>
+
+    <div class="absolute2">Posicionamiento absoluto con z-index menor (la capa aparece por debajo de otras que se superponen con z-index mayor.</div>
+
+    <div class="absolute3">Posicionamiento absoluto con atributos bottom y right</div>
+
+    <h1>Posicionamiento CSS</h1>
+</body>
+
+</html>

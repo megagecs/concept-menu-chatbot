@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        div.prueba {
+            background-color: #606;
+            color: #ffc;
+            padding: 10px;
+            text-align: center;
+            width: 300px;
+        }
+
+        div.relative {
+            position: relative;
+            width: 300px;
+            padding: 10px;
+            background-color: #066;
+            color: #ffc;
+            top: 100px;
+            left: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Hola</h1>
+    <div class="prueba">Hola esto es una prueba sin position</div>
+    <div class="relative">capa de posicionamiento relative
+        <br>Se tiene en cuenta esta capa para posicionar las siguientes.</div>
+    <h2>hola de nuevo!</h2>
+</body>
+
+<!-- Las etiquetas H1 y H2 respetan el flujo HTML y también tenemos un elemento DIV donde no se ha 
+     especificado nada en position, luego es static y por tanto también es afectada por el flujo.
+     Hay una capa relative, en el segundo elemento DIV, que también se posiciona con respecto al flujo normal.
+     Como tiene un top y left, aparece un poco desplazada del lugar que le tocaría con respecto al flujo.
+     El último H2 que aparece se coloca teniendo en cuenta al flujo y tiene en cuenta la capa relative,
+     por eso deja un espacio en blanco arriba, pero no atiende a la posición real de ésta,
+     que se marcó con los atributos top y left. -->
+
+</html>

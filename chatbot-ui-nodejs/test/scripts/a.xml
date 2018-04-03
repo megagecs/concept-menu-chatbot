@@ -1,0 +1,65 @@
+<ul>
+    <li class="has-children" data-hasChilds=1 onClick='clickOption(this)'>
+        <input type="checkbox" name="Group 1" id="1" checked>
+            <label for="1">Group 1</label>
+            <ul>
+                <li class="has-children" data-hasChilds=1 onClick='clickOption(this)'>
+                    <input type="checkbox" name="Sub Group 1.1" id="1.1" checked>
+                        <label for="1.1">Sub Group 1.1</label>
+                        <ul>
+                            <li data-hasChilds=0 onClick='clickOption(this)'>
+                                <a href="#">Item 1.1.1</a>
+                            </li>
+                            <li data-hasChilds=0 onClick='clickOption(this)'>
+                                <a href="#">Item 1.1.2</a>
+                            </li>
+                            <li data-hasChilds=0 onClick='clickOption(this)'>
+                                <a href="#">Item 1.1.3</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="has-children" data-hasChilds=1 onClick='clickOption(this)'>
+                        <input type="checkbox" name="Sub Group 2" id="2.1" checked>
+                            <label for="2.1">Sub Group 2</label>
+                            <ul>
+                                <li class="has-children" data-hasChilds=1 onClick='clickOption(this)'>
+                                    <input type="checkbox" name="Item 2.1.1" id="2.1.1" checked>
+                                        <label for="2.1.1">Item 2.1.1</label>
+                                        <ul>
+                                            <li data-hasChilds=0 onClick='clickOption(this)'>
+                                                <a href="#">Item 2.1.1.1</a>
+                                            </li>
+                                            <li data-hasChilds=0 onClick='clickOption(this)'>
+                                                <a href="#">Item 2.1.1.2</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li data-hasChilds=0 onClick='clickOption(this)'>
+                                        <a href="#">Item 2.2</a>
+                                    </li>
+                                    <li data-hasChilds=0 onClick='clickOption(this)'>
+                                        <a href="#">Item 2.3</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="has-children" data-hasChilds=1 onClick='clickOption(this)'>
+                        <input type="checkbox" name="Group 2" id="2" checked>
+                            <label for="2">Group 2</label>
+                            <ul>
+                                <li data-hasChilds=0 onClick='clickOption(this)'>
+                                    <a href="#">Item 2.1</a>
+                                </li>
+                                <li data-hasChilds=0 onClick='clickOption(this)'>
+                                    <a href="#">Item 2.2</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li data-hasChilds=0 onClick='clickOption(this)'>
+                            <a href="#">Item 3</a>
+                        </li>
+                        <li data-hasChilds=0 onClick='clickOption(this)'>
+                            <a href="#">Item 4</a>
+                        </li>
+                    </ul>
